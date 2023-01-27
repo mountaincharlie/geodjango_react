@@ -1,6 +1,6 @@
 from django.contrib import admin
 from leaflet.admin import LeafletGeoAdmin
-from .models import Buidling
+from .models import Building
 
 @admin.register(Building)
 class BuildingAdmin(LeafletGeoAdmin):
